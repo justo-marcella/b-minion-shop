@@ -19,6 +19,8 @@ export async function main(event, context) {
     },
   };
 
+
+  
   try {
     await dynamoDb.put(params).promise();
 
